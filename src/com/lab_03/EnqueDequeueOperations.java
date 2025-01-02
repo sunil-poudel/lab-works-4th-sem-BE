@@ -33,7 +33,7 @@ class Queue{
 
 }
 
-public class EnqueDequeOperations {
+public class EnqueDequeueOperations {
     public static void main(String[] args) {
         Queue queue = new Queue(3);
         queue.enQueue("Sunil");

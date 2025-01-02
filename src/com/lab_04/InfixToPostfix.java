@@ -24,8 +24,6 @@ public class InfixToPostfix {
             } else if(c=='('){
                 stack.push(c);
             } else if(c==')'){
-//               peek function Looks at the object at the top of this stack without removing it from the stack
-//               pop function Removes the object at the top of this stack and returns that object as the value of this function.
                 while(!stack.isEmpty() && stack.peek()!='('){
                     postfix.append(stack.pop());
                 }
